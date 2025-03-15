@@ -17,6 +17,10 @@
   "author": "zedento",
   "description": "Simple CLI to validate your environment variables",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AliAbdullah0/env-verify-cli"
+  },
   "dependencies": {
     "chalk": "^5.4.1",
     "dotenv": "^16.4.7"
