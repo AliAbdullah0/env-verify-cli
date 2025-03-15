@@ -1,0 +1,27 @@
+{
+  "name": "verify-env-cli",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "cli",
+    "env",
+    "checker",
+    "env-checker",
+    "env-checker-cli",
+    "development-tool"
+  ],
+  "author": "zedento",
+  "description": "Simple CLI to validate your environment variables",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "dotenv": "^16.4.7"
+  },
+  "bin": {
+    "env-checker": "./bin/index.js"
+  }
+}
