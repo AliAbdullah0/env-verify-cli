@@ -21,6 +21,10 @@ npm install -g env-checker-cli
 ```
 
 # How To Use
+
+Make sure You have .env.example and .env in your project 
+RUN ```env-checker``` in your cli to verify envoirnment variables
+
 ### .env.example
 DB_HOST=
 DB_USER=
